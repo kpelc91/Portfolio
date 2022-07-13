@@ -1,0 +1,255 @@
+body {
+    font-family: Arial;
+    background-color: lightgray;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-left: 20px;
+    display: inline;
+}
+
+hr {
+    width: 200px;
+    border: 1px solid #787878;
+    border-bottom: 0;
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.work-place {
+    font-size: large;
+    color: rgb(68, 115, 160);
+    font-weight: 550;
+}
+
+#container {
+    box-shadow: 0 0 20px rgb(51, 92, 130);
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.columns,
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    width: 40%;
+    background-color: rgb(217, 219, 219);
+    padding: 5px 0 5px 0;
+}
+
+.main {
+    text-align: center;
+}
+
+.right {
+    width: 60%;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.skills {
+    width: 95%;
+    border: 1px solid #e2e5ea;
+    border-radius: 2px;
+    margin: 0 auto;
+    /* display: block; */
+}
+
+.skills h2,
+.languages h2,
+.skills hr,
+.languages hr {
+    margin-left: 40px;
+}
+
+.skills h2 {
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    
+}
+
+.skills-left {
+    width: 50%;
+}
+
+.skills-right {
+    width: 50%;
+}
+
+.skills-left ul,
+.skills-right ul {
+    padding-inline-start: 25px;
+}
+
+.box-left {
+    width: 25%;
+}
+
+.box-right {
+    width: 75%;
+}
+
+/* .box-right li {
+    font-size: 10px;
+} */
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.address li {
+    margin-bottom: 10px;
+}
+
+.address-icon {
+    width: 16px;
+    height: 16px;
+    background-color: rgb(56, 156, 196);
+    margin-right: 10px;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.hobbies-icon {
+    background-color: rgb(56, 156, 196);
+}
+
+.hobbies-icon,
+.skills-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    padding: 3px;
+    vertical-align: middle;
+    
+}
+
+.address-icon:hover,
+.hobbies-icon:hover {
+    border: 1px solid rgb(53, 122, 134);
+    color: #fff;
+    background-color: rgba(182, 194, 194, 0.957);
+    box-shadow: 0 5px 20px #f0f0f0;
+}
+
+.hobbies-icon:hover,
+.skills-icon:hover {
+    height: 25px;
+    width: 25px;
+}
+
+.owal {
+    border-radius: 15%;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.github {
+    background-color: white;
+    text-align: center;
+    border: 2px solid rgb(53, 122, 134);
+    color: black;
+    text-decoration: none;
+    padding: 8px 22px;
+    display: inline-block; 
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    border-radius: 26px;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow: 0 0 20px grey;
+}
+
+.github:hover {
+    color: white;
+    background-color: rgb(156, 180, 211);
+}
+
+.github:focus {
+    outline: none;
+    color: white;
+    background-color: rgb(53, 122, 134);
+}
+
+.github:active {
+    text-decoration: underline;
+}
+
+.fab {
+    padding: 0 15px;
+}
+
+.skills:hover {
+    background-color: rgb(236, 234, 234);
+    box-shadow: 0 5px 20px #f0f0f0;
+    }
+
+.infobox li,
+.skills li {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.infobox li {
+    padding: 0 20px;
+}
+
+.languages li {
+    margin-left: 40px;
+}
+
+.languages li,
+.skills li {
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .left {
+        flex-basis: 50%;
+    }
+
+    .right {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .left,
+    .right {
+        flex-basis: 100%;
+    }
+}
+
