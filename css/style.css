@@ -3,323 +3,329 @@ body {
     background-color: lightgray;
     padding: 10px;
     line-height: 1.5;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 36px;
     margin-bottom: 10px;
     margin-top: 15px;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 22px;
     margin-left: 20px;
     display: inline;
-}
-
-hr {
+  }
+  
+  hr {
     width: 200px;
     border: 1px solid #787878;
     border-bottom: 0;
     margin-left: 20px;
     margin-top: 2px;
     margin-bottom: 2px;
-}
-
-p {
+  }
+  
+  p {
     margin-left: 20px;
     margin-right: 10px;
-}
-
-.work-place {
+  }
+  
+  .work-place {
     font-size: large;
     color: rgb(68, 115, 160);
     font-weight: 550;
-}
-
-#container {
+  }
+  
+  #container {
     box-shadow: 0 0 20px rgb(51, 92, 130);
     width: 960px;
     margin: 0 auto;
     background-color: white;
-}
-
-.columns,
-.skills {
+  }
+  
+  .columns {
     display: flex;
     flex-wrap: wrap;
-}
-
-.left {
+  }
+  
+  .left {
     width: 40%;
     background-color: rgb(217, 219, 219);
     padding: 5px 0 5px 0;
-}
-
-.main {
+  }
+  
+  .main {
     text-align: center;
-}
-
-.right {
+  }
+  
+  .right {
     width: 60%;
     background-color: white;
     margin-top: 30px;
-}
-
-.skills {
+  }
+  
+  .skills {
     width: 95%;
     border: 1px solid #e2e5ea;
     border-radius: 2px;
     margin: 0 auto;
     /* display: block; */
-}
-
-.skills h2,
-.skills hr {
+  }
+  
+  .skills h2,
+  .skills hr {
     margin-left: 40px;
-}
-
-.skills h2 {
+  }
+  
+  .skills h2 {
     margin-block-start: 1px;
     margin-block-end: 1px;
-    width: 100%; 
-}
-
-.languages h2,
-.languages hr {
+    width: 100%;
+  }
+  
+  .languages h2,
+  .languages hr {
     margin-left: 50px;
-}
-
-.skills-left {
+  }
+  
+  .skills-left {
     width: 50%;
-}
-
-.skills-right {
+  }
+  
+  .skills-right {
     width: 50%;
-}
-
-.skills-left ul,
-.skills-right ul {
+  }
+  
+  .skills-left ul,
+  .skills-right ul {
     padding-inline-start: 25px;
-}
-
-.box-left {
+  }
+  
+  .box-left {
     width: 25%;
-}
-
-.box-right {
+  }
+  
+  .box-right {
     width: 75%;
-}
-
-ul {
+  }
+  
+  ul {
     list-style: none;
-}
-
-.skills li {
+  }
+  
+  .skills li {
     margin-bottom: 15px;
-}
-
-.experience li,
-.education li,
-.courses li {
+  }
+  
+  .experience li,
+  .education li,
+  .courses li {
     margin-bottom: 6px;
-}
-
-.experience ul,
-.education ul,
-.courses ul {
+  }
+  
+  .experience ul,
+  .education ul,
+  .courses ul {
     margin-top: 10px;
     margin-bottom: 5px;
-}
-
-.address li {
+  }
+  
+  .address li {
     margin-bottom: 10px;
-}
-
-.address-icon {
+  }
+  
+  .address-icon {
     width: 16px;
     height: 16px;
     background-color: rgb(56, 156, 196);
     margin-right: 10px;
     padding: 8px;
     vertical-align: middle;
-}
-
-.hobbies-icon {
+  }
+  
+  .hobbies-icon {
     background-color: rgb(56, 156, 196);
-}
-
-.hobbies-icon,
-.skills-icon {
+  }
+  
+  .hobbies-icon,
+  .skills-icon {
     width: 16px;
     height: 16px;
     margin-right: 10px;
     padding: 3px;
     vertical-align: middle;
-    
-}
-
-.address-icon:hover,
-.hobbies-icon:hover {
+  }
+  
+  .address-icon:hover,
+  .hobbies-icon:hover {
     border: 1px solid rgb(53, 122, 134);
     color: #fff;
     background-color: rgba(182, 194, 194, 0.957);
     box-shadow: 0 5px 20px #f0f0f0;
-}
-
-.hobbies-icon:hover,
-.skills-icon:hover {
+  }
+  
+  .hobbies-icon:hover,
+  .skills-icon:hover {
     height: 25px;
     width: 25px;
-}
-
-.owal {
+  }
+  
+  .owal {
     border-radius: 15%;
-}
-
-.circle {
+  }
+  
+  .circle {
     border-radius: 50%;
-}
-
-.profile-picture {
+  }
+  
+  .profile-picture {
     width: 150px;
     height: 200px;
     margin: 0 auto;
     display: block;
-}
-
-.github {
+  }
+  
+  .github {
     background-color: white;
     text-align: center;
     border: 2px solid rgb(53, 122, 134);
     color: black;
     text-decoration: none;
     padding: 8px 22px;
-    display: inline-block; 
+    display: inline-block;
     margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 100px;
     border-radius: 26px;
     transition: background-color 0.5s, color 0.5s;
     box-shadow: 0 0 20px grey;
-}
-
-.github:hover {
+  }
+  
+  .github:hover {
     color: white;
     background-color: rgb(156, 180, 211);
-}
-
-.github:focus {
+  }
+  
+  .github:focus {
     outline: none;
     color: white;
     background-color: rgb(53, 122, 134);
-}
-
-.github:active {
+  }
+  
+  .github:active {
     text-decoration: underline;
-}
-
-.fab {
+  }
+  
+  .fab {
     padding: 0 15px;
-}
-
-.skills:hover {
+  }
+  
+  .skills:hover {
     background-color: rgb(236, 234, 234);
     box-shadow: 0 5px 20px #f0f0f0;
-    }
-
-.infobox li,
-.skills li {
+  }
+  
+  .infobox li,
+  .skills li {
     display: inline-block;
     justify-content: space-around;
-}
-
-.infobox li {
+  }
+  
+  .infobox li {
     padding: 0 20px;
-}
-
-.languages {
+  }
+  
+  .languages {
     margin-top: 20px;
-}
-
-.languages li {
+  }
+  
+  .languages li {
     margin-left: 40px;
-}
-
-.languages li,
-.skills li {
+  }
+  
+  .languages li,
+  .skills li {
     font-size: 15px;
     margin-bottom: 13px;
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
     .left {
-        flex-basis: 50%;
+      flex-basis: 50%;
     }
-
+  
     .right {
-        flex-basis: 50%;
+      flex-basis: 50%;
     }
-}
-
-@media (max-width: 768px) {
-
+  }
+  
+  @media (max-width: 768px) {
     .left,
     .right {
-        flex-basis: 100%;
+      flex-basis: 100%;
     }
-
+  
     #container {
-        width: 100%;
+      width: 100%;
     }
-
+  
     .address,
     .git-hub {
-        display: flex;
-        justify-content: center;
+      display: flex;
+      justify-content: center;
     }
-
+  
+    .github-button-holder {
+      text-align: center;
+    }
+  
+    .github {
+      margin: 0;
+      margin-bottom: 15px;
+    }
+  
     /* .skills hr {
-        display: inline;
-    } */
-}
-
-.experience ul li,
-.education ul li,
-.courses ul li {
+          display: inline;
+      } */
+  }
+  
+  .experience ul li,
+  .education ul li,
+  .courses ul li {
     display: flex;
     flex-wrap: wrap;
-}
-
-.experience ul li span:nth-of-type(odd),
-.courses ul li span:nth-of-type(odd) {
+  }
+  
+  .experience ul li span:nth-of-type(odd),
+  .courses ul li span:nth-of-type(odd) {
     width: 30%;
-}
-
-.experience ul li span:nth-of-type(even),
-.courses ul li span:nth-of-type(even) {
+  }
+  
+  .experience ul li span:nth-of-type(even),
+  .courses ul li span:nth-of-type(even) {
     width: 70%;
-}
-
-.education ul li span:nth-of-type(odd) {
+  }
+  
+  .education ul li span:nth-of-type(odd) {
     width: 20%;
-}
-
-.education ul li span:nth-of-type(even) {
+  }
+  
+  .education ul li span:nth-of-type(even) {
     width: 80%;
-}
-
-.text {
+  }
+  
+  .text {
     font-style: italic;
     color: rgb(109, 109, 109);
     font-weight: 200;
-}
-
-.footer p {
+  }
+  
+  .footer p {
     font-size: xx-small;
-}
-
-.container-skills {
+  }
+  
+  .container-skills {
     display: flex;
-}
-
+  }
+  
