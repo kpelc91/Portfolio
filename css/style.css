@@ -75,9 +75,7 @@ p {
 }
 
 .skills h2,
-.languages h2,
-.skills hr,
-.languages hr {
+.skills hr {
     margin-left: 40px;
 }
 
@@ -265,10 +263,25 @@ ul {
 }
 
 @media (max-width: 768px) {
+
     .left,
     .right {
         flex-basis: 100%;
     }
+
+    #container {
+        width: 100%;
+    }
+
+    .address,
+    .git-hub {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* .skills hr {
+        display: inline;
+    } */
 }
 
 .experience ul li,
@@ -300,5 +313,13 @@ ul {
     font-style: italic;
     color: rgb(109, 109, 109);
     font-weight: 200;
+}
+
+.footer p {
+    font-size: xx-small;
+}
+
+.container-skills {
+    display: flex;
 }
 
